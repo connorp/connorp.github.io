@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px
+}
+
+h3 {
+    font-size: 25px;
+}
+
+/* Navbar Color*/
+.nav-wrapper {
+    background-color: #003262;
+}
+
+/* Navbar Text Size */
+.navbarTitle {
+    font-size: x-large;
+}
+
+/* Adjusts Height of All Content */
+.main-section {
+    margin-top: 5%;
+}
+
+/* Size of Profile Pic */
+.main-profile-pic {
+    height: 300px;
+    /* border-radius: 25px; */
+}
+
+/* Icon Formatting */
+.contact-icons {
+    background-color: #25517A;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 50px;
+    /* border-radius: 20px; */
+}
+
+.contact-icons:hover {
+    background-color: #2E3639;
+}
+
+.iconImage {
+    position: relative;
+    top: 6px;
+    right: 9px;
+}
+
+.iconImageCV {
+    position: relative;
+    top: 6px;
+    right: 12px;
+    font-style: normal;
+}
+
+/* Section Headers */
+
+.tabs {
+    margin-bottom: 50px;
+}
+
+.sectionTabs {
+    color: #003262 !important;
+    font-weight: bold;
+}
+
+.indicator {
+    background-color: #25517A !important;
+}
+
+/* Research Links */
+
+.research-link {
+    color: #25517A;
+}
+
+.research-link:hover {
+    color: #2E3639;
+}
+
+/* Dividers for research and teaching */
+
+.divider {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+
+/* Footer */
+.page-footer {
+    background-color: #003262;
+}
+
+.copyright {
+    padding-bottom: 20px;
+}
