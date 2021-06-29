@@ -30,6 +30,20 @@ h3 {
     font-size: x-large;
 }
 
+.navbar-fixed { /* removes overlay so user can press links */
+    z-index: 999; 
+}
+
+.nav-links {
+   padding-top: 8px !important;
+   margin-bottom: 100px !important;
+}
+
+.indicator {
+    display: none;
+    /* background-color: #25517A !important; */
+}
+
 /* Adjusts Height of All Content */
 .main-section {
     margin-top: 5%;
@@ -37,7 +51,7 @@ h3 {
 
 /* Size of Profile Pic */
 .main-profile-pic {
-    height: 300px;
+    max-height: 300px;
     /* border-radius: 25px; */
 }
 
@@ -66,21 +80,6 @@ h3 {
     top: 6px;
     right: 12px;
     font-style: normal;
-}
-
-/* Section Headers */
-
-.tabs {
-    margin-bottom: 50px;
-}
-
-.sectionTabs {
-    color: #003262 !important;
-    font-weight: bold;
-}
-
-.indicator {
-    background-color: #25517A !important;
 }
 
 /* Research Links */
