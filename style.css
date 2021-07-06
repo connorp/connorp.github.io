@@ -51,7 +51,7 @@ h3 {
 }
 
 .contact-padding {
-    margin-bottom: -1px !important;
+    margin-bottom: -8px !important;
 }
 
 /* Size of Profile Pic */
@@ -86,6 +86,10 @@ h3 {
     top: 6px;
     right: 12px;
     font-style: normal;
+}
+
+.buttons-group {
+    padding-bottom: 30px;
 }
 
 /* Research and Teaching Sections */
