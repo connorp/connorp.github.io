@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 /* Navbar Color*/
@@ -51,7 +51,7 @@ h3 {
 }
 
 .contact-padding {
-    margin-bottom: -8px !important;
+    margin-bottom: -1px !important;
 }
 
 /* Size of Profile Pic */
@@ -86,6 +86,11 @@ h3 {
     top: 6px;
     right: 12px;
     font-style: normal;
+}
+
+/* Research and Teaching Sections */
+.section-title {
+    padding-bottom: 30px;
 }
 
 /* Research Links */
