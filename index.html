@@ -171,13 +171,13 @@
       $("#teaching-button").click(function() {
         $(".tabs").tabs('select_tab', 'teaching')
       });
-      // selects first article
+      // selects second child element
       $("#research").children().eq(1).addClass("first-research-article")
-      // select all articles besides first
+      // select all articles besides first two
       $("#research").children().slice(2).addClass("research-article")
-      // selects first article
+      // selects second child element
       $("#teaching").children().eq(1).addClass("first-teaching-article")
-      // select all articles besides first
+      // select all articles besides first two
       $("#teaching").children().slice(2).addClass("teaching-article")
     });   
   </script>
