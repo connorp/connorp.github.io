@@ -98,10 +98,18 @@ h3 {
     padding-bottom: 20px;
 }
 
+.first-research-article {
+    padding-bottom: 20px;
+}
+
 .research-article {
     border-top: 1px solid #bbb;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.first-teaching-article {
+    padding-bottom: 20px;
 }
 
 .teaching-article {
