@@ -92,6 +92,41 @@ h3 {
     padding-bottom: 30px;
 }
 
+.github-button-label{
+    position: relative;
+    bottom: 35px;
+    left: 150px;
+    padding-right: 15px;
+}
+
+.linkedin-button-label{
+    position: relative;
+    bottom: 35px;
+    left: 154px;
+    padding-right: 15px;
+}
+
+.email-button-label{
+    position: relative;
+    bottom: 35px;
+    left: 160px;
+    padding-right: 15px;
+}
+
+.orcid-button-label{
+    position: relative;
+    bottom: 35px;
+    left: 170px;
+    padding-right: 15px;
+}
+
+.vita-button-label{
+    position: relative;
+    bottom: 35px;
+    left: 185px;
+    padding-right: 15px;
+}
+
 /* Research and Teaching Sections */
 
 .section-title {
