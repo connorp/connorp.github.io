@@ -83,6 +83,20 @@ p a {
     max-height: 364px;
 }
 
+
+@media only screen and (min-width: 990px) {
+/* adjusts left column placement */
+.left-column {
+    margin-left: -100px;
+}
+
+/* adjust right colun placement */
+.right-column {
+    margin-right: -100px;
+}
+}
+
+
 /* Icon Formatting */
 .contact-icons {
     background-color: #25517A;
@@ -111,6 +125,7 @@ p a {
 
 .buttons-group {
     padding-bottom: 40px;
+    white-space: nowrap;
 }
 
 .github-label{
