@@ -84,7 +84,7 @@ p a {
 }
 
 
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 993px) {
 /* adjusts left column placement */
 .left-column {
     margin-left: -100px;
