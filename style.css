@@ -40,6 +40,10 @@ h3 a:hover {
     color: #2E3639;
 }
 
+p a {
+    color: #3344dd
+}
+
 
 /* Navbar Color*/
 .nav-wrapper {
@@ -106,7 +110,7 @@ h3 a:hover {
 }
 
 .buttons-group {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .github-label{
