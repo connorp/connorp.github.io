@@ -71,7 +71,7 @@
             <a href="https://www.linkedin.com/in/connorpj/" target="_blank" aria-label="Link to LinkedIn"
               class="hoverable btn contact-icons">
               <i class="fab fa-linkedin-in iconImage"></i>
-              <label class="linkedin-label">LinkedIn</label>
+              <label class="linkedin-label">Linkedin</label>
             </a>
               <a href="https://orcid.org/0000-0002-4220-5210" target="_blank" aria-label="Link to ORCiD"
               class="hoverable btn contact-icons">
@@ -186,14 +186,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <!-- Materialize JS CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- LetteringJS -->
+  <script src="./jquery.lettering-0.6.1.min.js"></script>
 
   <script>
     $("document").ready(function () {
       // materialize initializers
-      $('.tabs').tabs();
-      $(".button-collapse").sideNav({
-        closeOnClick: true
-      });
       $("#home-button").click(function () {
         $(".tabs").tabs('select_tab', 'home')
       });
@@ -211,6 +209,12 @@
       $("#teaching").children().eq(1).addClass("first-teaching-article")
       // select all child elements besides first two
       $("#teaching").children().slice(2).addClass("teaching-article")
+      // Capitalizes the second i in LinkedIn
+      $(".linkedin-label").lettering()
+      $(".char7").css("text-transform", "uppercase")
+      // Lowercases the i in ORCiD
+      $(".orcid-label").lettering()
+      $(".char4").css("text-transform", "lowercase")
     });
   </script>
 

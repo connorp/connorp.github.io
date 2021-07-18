@@ -20,6 +20,17 @@ h3 {
     font-size: 20px;
 }
 
+/* label automatically generated in all caps - fix */
+label {
+    color: #424242;
+    text-transform: lowercase;
+}
+
+label::first-letter {
+    text-transform: uppercase;
+}
+
+
 /* Navbar Color*/
 .nav-wrapper {
     background-color: #003262;
@@ -107,6 +118,7 @@ h3 {
 }
 
 .orcid-label{
+    text-transform: uppercase;
     display: block;
     margin-top: 8px;
     margin-left: -19px;
