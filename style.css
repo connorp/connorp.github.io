@@ -90,7 +90,7 @@ p a {
     margin-left: -100px;
 }
 
-/* adjust right colun placement */
+/* adjust right column placement */
 .right-column {
     margin-right: -100px;
 }
@@ -179,6 +179,10 @@ p a {
     border-top: 1px solid #bbb;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+.course-info {
+    font-style: italic;
 }
 
 /* Dividers for research and teaching */
