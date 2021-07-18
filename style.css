@@ -74,13 +74,13 @@ p a {
     margin-top: 5%;
 }
 
-.contact-padding {
-    margin-bottom: -1em !important;
-}
-
 /* Size of Profile Pic */
 .main-profile-pic {
     max-height: 364px;
+}
+
+#pronouns {
+    font-style: italic;
 }
 
 
