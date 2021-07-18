@@ -72,30 +72,30 @@
           University of California, Berkeley</p>
 
           <div class="buttons-group">
-            <a href="https://github.com/connorp" target="_blank" aria-label="Link to Github"
+            <a href="https://github.com/connorp" aria-label="Link to Github"
               class="hoverable btn contact-icons">
               <i class="fab fa-github iconImage"></i>
-              <label class="github-label">Github</label>
+              <sub class="github-label">Github</sub>  
             </a>
-            <a href="https://www.linkedin.com/in/connorpj/" target="_blank" aria-label="Link to LinkedIn"
+            <a href="https://www.linkedin.com/in/connorpj/" aria-label="Link to LinkedIn"
               class="hoverable btn contact-icons">
               <i class="fab fa-linkedin-in iconImage"></i>
-              <label class="linkedin-label">Linkedin</label>
+              <sub class="linkedin-label">Linkedin</sub>
             </a>
-            <a href="mailto:cpjackson@berkeley.edu" target="_blank" aria-label="Link to email cpjackson@berkeley.edu"
+            <a href="mailto:cpjackson@berkeley.edu" aria-label="Link to email cpjackson@berkeley.edu"
               class="hoverable btn contact-icons">
               <i class="fas fa-envelope iconImage"></i>
-              <label class="email-label">Email</label>
+              <sub class="email-label">Email</sub>
             </a>
-            <a href="https://orcid.org/0000-0002-4220-5210" target="_blank" aria-label="Link to ORCiD"
+            <a href="https://orcid.org/0000-0002-4220-5210" aria-label="Link to ORCiD"
               class="hoverable btn contact-icons">
               <i class="fab fa-orcid iconImage"></i>
-              <label class="orcid-label">ORCiD</label>
+              <sub class="orcid-label">ORCiD</sub>
             </a>
-            <a href="./assets/CV.pdf" target="_blank" aria-label="CV in .pdf format"
+            <a href="./assets/CV.pdf" aria-label="CV in .pdf format"
               class="hoverable btn contact-icons">
               <i class="iconImageCV">CV</i>
-              <label class="vita-label">Vita</label>
+              <sub class="vita-label">Vita</sub>
             </a>
           </div>
         </div>
@@ -251,8 +251,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <!-- Materialize JS CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <!-- LetteringJS -->
-  <script src="./jquery.lettering-0.6.1.min.js"></script>
 
   <script>
     $("document").ready(function () {
@@ -274,12 +272,6 @@
       $("#teaching").children().eq(1).addClass("first-teaching-article");
       // select all child elements besides first two
       $("#teaching").children().slice(2).addClass("teaching-article");
-      // Capitalizes the second i in LinkedIn
-      $(".linkedin-label").lettering();
-      $(".char7").css("text-transform", "uppercase");
-      // Lowercases the i in ORCiD
-      $(".orcid-label").lettering();
-      $(".char4").css("text-transform", "lowercase");
     });
   </script>
 </body>

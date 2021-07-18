@@ -22,13 +22,12 @@ h3 {
 }
 
 /* label automatically generated in all caps - fix */
-label {
+sub {
+    text-transform: initial;
     color: #424242;
-    text-transform: lowercase;
-}
-
-label::first-letter {
-    text-transform: uppercase;
+    font-size: small;
+    display: block;
+    margin-top: 20px;
 }
 
 /* Research Links */
@@ -84,7 +83,7 @@ p a {
 }
 
 
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 993px) {
 /* adjusts left column placement */
 .left-column {
     margin-left: -100px;
@@ -129,33 +128,22 @@ p a {
 }
 
 .github-label{
-    display: block;
-    margin-top: 8px;
     margin-left: -19px;
 }
 
 .linkedin-label{
-    display: block;
-    margin-top: 8px;
     margin-left: -24px;
 }
 
 .email-label{
-    display: block;
-    margin-top: 8px;
     margin-left: -16px;
 }
 
 .orcid-label{
-    text-transform: uppercase;
-    display: block;
-    margin-top: 8px;
     margin-left: -19px;
 }
 
 .vita-label{
-    display: block;
-    margin-top: 8px;
     margin-left: -13px;
 }
 
