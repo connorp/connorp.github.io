@@ -2,32 +2,31 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connor P. Jackson</title>
   <!-- Material Icon CDN -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <!-- Materialize CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <!-- Font Awesome -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&amp;family=Offside&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Offside&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 </head>
 
 <body>
-
   <!-- Navbar -->
   <header>
     <div class="navbar-fixed">
@@ -36,9 +35,15 @@
           <div class="container">
             <div class="nav-content right">
               <ul class="tabs tabs-transparent">
-                <li class="tab nav-links"><a class="active" href="#home">Home</a></li>
-                <li class="tab nav-links"><a href="#research">Research</a></li>
-                <li class="tab nav-links"><a href="#teaching">Teaching</a></li>
+                <li class="tab nav-links">
+                  <a class="active" href="#home">Home</a>
+                </li>
+                <li class="tab nav-links">
+                  <a href="#research">Research</a>
+                </li>
+                <li class="tab nav-links">
+                  <a href="#teaching">Teaching</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -54,47 +59,67 @@
         <div class="col s12 l6 center-align">
           <!-- Profile Picture and Links -->
           <img class="main-profile-pic responsive-img" src="./assets/connor-profile.jpg"
-            alt="Connor Jackson profile picture">
+            alt="Connor Jackson profile picture" />
           <h1>Connor P. Jackson</h1>
           <p class="contact-padding">Doctoral Student</p>
           <p class="contact-padding">Agricultural and Resource Economics</p>
           <p class="contact-padding">University of California, Berkeley</p>
-          <br>
-          <p class="contact-padding">245 Giannini Hall</p>
+          <br />
+          <p class="contact-padding">207 Giannini Hall</p>
           <p>Berkeley, CA 94720-3310</p>
           <div class="buttons-group">
-            <a href="https://github.com/connorp" aria-label="Link to Github"
-              class="hoverable btn contact-icons tooltipped" data-tooltip="Github">
+            <a href="https://github.com/connorp" target="_blank" aria-label="Link to Github"
+              class="hoverable btn contact-icons">
               <i class="fab fa-github iconImage"></i>
+              <label class="github-label">Github</label>
             </a>
-            <a href="https://www.linkedin.com/in/connorpj/" aria-label="Link to LinkedIn"
-              class="hoverable btn contact-icons tooltipped" data-tooltip="LinkedIn">
+            <a href="https://www.linkedin.com/in/connorpj/" target="_blank" aria-label="Link to LinkedIn"
+              class="hoverable btn contact-icons">
               <i class="fab fa-linkedin-in iconImage"></i>
+              <label class="linkedin-label">Linkedin</label>
             </a>
-            <a href="mailto:cpjackson@berkeley.edu" aria-label="Link to email cpjackson@berkeley.edu"
-              class="hoverable btn contact-icons tooltipped" data-tooltip="Email">
-              <i class="fas fa-envelope iconImage"></i>
-            </a>
-            <a href="https://orcid.org/0000-0002-4220-5210" aria-label="Link to ORCiD"
-              class="hoverable btn contact-icons tooltipped" data-tooltip="ORCiD">
+            <a href="https://orcid.org/0000-0002-4220-5210" target="_blank" aria-label="Link to ORCiD"
+              class="hoverable btn contact-icons">
               <i class="fab fa-orcid iconImage"></i>
+              <label class="orcid-label">ORCiD</label>
             </a>
-            <a href="./assets/CV.pdf" aria-label="CV in .pdf format"
-              class="hoverable btn contact-icons tooltipped" data-tooltip="Vita">
+            <a href="mailto:cpjackson@berkeley.edu" target="_blank" aria-label="Link to email cpjackson@berkeley.edu"
+              class="hoverable btn contact-icons">
+              <i class="fas fa-envelope iconImage"></i>
+              <label class="email-label">Email</label>
+            </a>
+            <a href="./assets/CV.pdf" target="_blank" aria-label="CV in .pdf format"
+              class="hoverable btn contact-icons">
               <i class="iconImageCV">CV</i>
+              <label class="vita-label">Vita</label>
             </a>
           </div>
-          <!-- <div class="divider hide-on-large-only"></div> -->
-
         </div>
-
         <div class="col s12 l6">
-
           <!-- Home Section -->
           <section id="home">
-            <p class="grey-text text-darken-3 lighten-3">Connor is a PhD student in <a href="https://are.berkeley.edu">Agricultural and Resource Economics at the University of California, Berkeley</a>. As an environmental and public economist, their research explores how policies to mitigate greenhouse gas emissions from agricultural soils can accommodate emissions variation and distributional and equity concerns, and how flood insurance markets and policy design influence homeowner decisionmaking in flood zones. Connor’s work spans the fields of natural resources, environmental, public, and urban economics, and combines computational tools from the natural sciences with economic models of optimal policy design.</p>
-<p class="grey-text text-darken-3 lighten-3">Prior to studying at Berkeley, Connor worked as a research assistant at <a href="https://rand.org">the RAND Corporation</a>, researching facility resilience, Army readiness, and personnel and resource employment. They have a masters degree in Agricultural and Resource Economics from UC Davis, and a bachelors degree in Physics from UC Berkeley.</p>
-
+            <p class="grey-text text-darken-3 lighten-3">
+              Connor is a PhD student in
+              <a href="https://are.berkeley.edu">Agricultural and Resource Economics at the University of
+                California, Berkeley</a>. As an environmental and public economist, their research
+              explores how policies to mitigate greenhouse gas emissions from
+              agricultural soils can accommodate emissions variation and
+              distributional and equity concerns, and how flood insurance
+              markets and policy design influence homeowner decisionmaking in
+              flood zones. Connor’s work spans the fields of natural
+              resources, environmental, public, and urban economics, and
+              combines computational tools from the natural sciences with
+              economic models of optimal policy design.
+            </p>
+            <p class="grey-text text-darken-3 lighten-3">
+              Prior to studying at Berkeley, Connor worked as a research
+              assistant at
+              <a href="https://rand.org">the RAND Corporation</a>, researching
+              facility resilience, Army readiness, and personnel and resource
+              employment. They have a masters degree in Agricultural and
+              Resource Economics from UC Davis, and a bachelors degree in
+              Physics from UC Berkeley.
+            </p>
           </section>
 
           <!-- Research Section -->
@@ -102,16 +127,46 @@
             <h2>Research</h2>
             <article id="in-progress-flood-insurance-and-home-sales" class="level3">
               <h3><em>In Progress:</em> Flood Insurance and Home Sales</h3>
-
-                <p>Welfare improving buyouts of high flood risk homes need to be carefully designed to overcome political opposition, and identifying homeowners most likely to sell their homes in the wake of a flood could allow FEMA or local agencies to target buyouts in the wake of a disaster. I assemble a panel of real estate and flood insurance policy data to estimate whether holding an insurance policy impacts homeowners’ likelihood of selling their home following a flood.</p>
-
+              <p>
+                Welfare improving buyouts of high flood risk homes need to be
+                carefully designed to overcome political opposition, and
+                identifying homeowners most likely to sell their homes in the
+                wake of a flood could allow FEMA or local agencies to target
+                buyouts in the wake of a disaster. I assemble a panel of real
+                estate and flood insurance policy data to estimate whether
+                holding an insurance policy impacts homeowners’ likelihood of
+                selling their home following a flood.
+              </p>
             </article>
 
             <article id="in-progress-optimal-and-second-best-nitrogen-emissions-mitigation-policy" class="level3">
-              <h3><em>In Progress:</em> Optimal and Second Best Nitrogen Emissions Mitigation Policy</h3>
+              <h3>
+                <em>In Progress:</em> Optimal and Second Best Nitrogen
+                Emissions Mitigation Policy
+              </h3>
 
-              <p><em>With Jim Sallee:</em> Nitrous oxide is a potent greenhouse gas, produced primarily by global agricultural activities. However, emissions levels are thought to be highly heterogeneous across producers and regions, and are challenging to measure directly. Thus, designing policies to reduce nitrous oxide emissions has proven more difficult than policies that address carbon dioxide or methane emissions. We are analyzing the efficacy, efficiency, and equity of plausible regulatory policies that seek to reduce nitrogen emissions from agricultural soils, taking into account the causes and magnitudes of heterogeneity of emissions across emitters. We are applying tools of public finance to evaluate various real world emissions reduction policies, comparing the welfare impact of an imperfectly targeted tax or policy to the optimal outcome when emissions vary widely across fields and crops, as well as the feasibility of compensating farmers who might stand to be made worse off by a policy while improving welfare overall. These economic tools allow us to quantify the heterogeneity we observe in nitrogen emissions, as well as choose the best policies in light of it.</p>
-
+              <p>
+                <em>With Jim Sallee:</em> Nitrous oxide is a potent greenhouse
+                gas, produced primarily by global agricultural activities.
+                However, emissions levels are thought to be highly
+                heterogeneous across producers and regions, and are
+                challenging to measure directly. Thus, designing policies to
+                reduce nitrous oxide emissions has proven more difficult than
+                policies that address carbon dioxide or methane emissions. We
+                are analyzing the efficacy, efficiency, and equity of
+                plausible regulatory policies that seek to reduce nitrogen
+                emissions from agricultural soils, taking into account the
+                causes and magnitudes of heterogeneity of emissions across
+                emitters. We are applying tools of public finance to evaluate
+                various real world emissions reduction policies, comparing the
+                welfare impact of an imperfectly targeted tax or policy to the
+                optimal outcome when emissions vary widely across fields and
+                crops, as well as the feasibility of compensating farmers who
+                might stand to be made worse off by a policy while improving
+                welfare overall. These economic tools allow us to quantify the
+                heterogeneity we observe in nitrogen emissions, as well as
+                choose the best policies in light of it.
+              </p>
             </article>
           </section>
 
@@ -119,26 +174,60 @@
           <!-- Teaching Section -->
           <section id="teaching" class="level2">
             <h2>Teaching</h2>
-
             <article id="teaching-assistant-environmental-economics-uc-berkeley" class="level3">
-              <h3><em>Teaching Assistant:</em> Environmental Economics (UC Berkeley)</h3>
+              <h3>
+                <em>Teaching Assistant:</em> Environmental Economics (UC
+                Berkeley)
+              </h3>
 
-              <p><em>Spring Semester 2021. Instructor: Jim Sallee. Overall student evaluation rating: 6.1/7</em></p>
-              <p>Economic welfare, externalities, public goods, common goods, policy approaches for dealing with externalities (Pigou, Cap and Trade, Diamond, Weitzman, Buchanan), equity and distributional impacts, and valuation of environmental goods and services (revealed preference, stated preference, hedonic valuation, value of a statistical life).</p>
+              <p>
+                <em>Spring Semester 2021. Instructor: Jim Sallee. Overall
+                  student evaluation rating: 6.1/7</em>
+              </p>
+              <p>
+                Economic welfare, externalities, public goods, common goods,
+                policy approaches for dealing with externalities (Pigou, Cap
+                and Trade, Diamond, Weitzman, Buchanan), equity and
+                distributional impacts, and valuation of environmental goods
+                and services (revealed preference, stated preference, hedonic
+                valuation, value of a statistical life).
+              </p>
             </article>
 
             <article id="teaching-assistant-natural-resource-economics-uc-davis" class="level3">
-              <h3><em>Teaching Assistant:</em> Natural Resource Economics (UC Davis)</h3>
+              <h3>
+                <em>Teaching Assistant:</em> Natural Resource Economics (UC
+                Davis)
+              </h3>
 
-              <p><em>Spring Quarter 2019. Instructor: François M. Castonguay. Overall student evaluation rating: 4.3/5</em></p>
-              <p>Valuation and use of land and water; fishery economics, management and regulation; extraction and management of nonrenewable resources such as minerals and energy resources; renewable and nonrenewable sources of energy; forest use; sustainability; and natural resource scarcity.</p>
+              <p>
+                <em>Spring Quarter 2019. Instructor: François M. Castonguay.
+                  Overall student evaluation rating: 4.3/5</em>
+              </p>
+              <p>
+                Valuation and use of land and water; fishery economics,
+                management and regulation; extraction and management of
+                nonrenewable resources such as minerals and energy resources;
+                renewable and nonrenewable sources of energy; forest use;
+                sustainability; and natural resource scarcity.
+              </p>
             </article>
 
             <article id="teaching-assistant-environmental-economics-uc-davis" class="level3">
-              <h3><em>Teaching Assistant:</em> Environmental Economics (UC Davis)</h3>
+              <h3>
+                <em>Teaching Assistant:</em> Environmental Economics (UC
+                Davis)
+              </h3>
 
-              <p><em>Winter Quarter 2019. Instructor: Kevin Novan. Overall student evaluation rating: 4.8/5</em></p>
-              <p>Externalities and deadweight loss; Pigouvian taxes; cap and trade; Weitzman optimal policy design under uncertainty, corrective taxation with heterogeneity.</p>
+              <p>
+                <em>Winter Quarter 2019. Instructor: Kevin Novan. Overall
+                  student evaluation rating: 4.8/5</em>
+              </p>
+              <p>
+                Externalities and deadweight loss; Pigouvian taxes; cap and
+                trade; Weitzman optimal policy design under uncertainty,
+                corrective taxation with heterogeneity.
+              </p>
             </article>
           </section>
         </div>
@@ -149,9 +238,7 @@
   <!-- Footer -->
   <footer class="page-footer">
     <div>
-      <div class="container copyright">
-        © 2021 Connor P. Jackson
-      </div>
+      <div class="container copyright">© 2021 Connor Jackson</div>
     </div>
   </footer>
 
@@ -159,34 +246,37 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <!-- Materialize JS CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!-- LetteringJS -->
+  <script src="./jquery.lettering-0.6.1.min.js"></script>
 
   <script>
     $("document").ready(function () {
       // materialize initializers
-      $('.tabs').tabs();
-      $(".button-collapse").sideNav({
-        closeOnClick: true
-      });
       $("#home-button").click(function () {
-        $(".tabs").tabs('select_tab', 'home')
+        $(".tabs").tabs("select_tab", "home");
       });
       $("#research-button").click(function () {
-        $(".tabs").tabs('select_tab', 'research')
+        $(".tabs").tabs("select_tab", "research");
       });
       $("#teaching-button").click(function () {
-        $(".tabs").tabs('select_tab', 'teaching')
+        $(".tabs").tabs("select_tab", "teaching");
       });
       // selects second child element
-      $("#research").children().eq(1).addClass("first-research-article")
+      $("#research").children().eq(1).addClass("first-research-article");
       // select all child elements besides first two
-      $("#research").children().slice(2).addClass("research-article")
+      $("#research").children().slice(2).addClass("research-article");
       // selects second child element
-      $("#teaching").children().eq(1).addClass("first-teaching-article")
+      $("#teaching").children().eq(1).addClass("first-teaching-article");
       // select all child elements besides first two
-      $("#teaching").children().slice(2).addClass("teaching-article")
+      $("#teaching").children().slice(2).addClass("teaching-article");
+      // Capitalizes the second i in LinkedIn
+      $(".linkedin-label").lettering();
+      $(".char7").css("text-transform", "uppercase");
+      // Lowercases the i in ORCiD
+      $(".orcid-label").lettering();
+      $(".char4").css("text-transform", "lowercase");
     });
   </script>
-
 </body>
 
 </html>

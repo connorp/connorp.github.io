@@ -21,6 +21,26 @@ h3 {
     font-size: 20px;
 }
 
+/* label automatically generated in all caps - fix */
+label {
+    color: #424242;
+    text-transform: lowercase;
+}
+
+label::first-letter {
+    text-transform: uppercase;
+}
+
+/* Research Links */
+h3 a {
+    color: #25517A;
+}
+
+h3 a:hover {
+    color: #2E3639;
+}
+
+
 /* Navbar Color*/
 .nav-wrapper {
     background-color: #003262;
@@ -43,7 +63,6 @@ h3 {
 
 .indicator {
     display: none;
-    /* background-color: #25517A !important; */
 }
 
 /* Adjusts Height of All Content */
@@ -58,9 +77,7 @@ h3 {
 /* Size of Profile Pic */
 .main-profile-pic {
     max-height: 364px;
-    /* border-radius: 25px; */
 }
-
 
 /* Icon Formatting */
 .contact-icons {
@@ -69,7 +86,6 @@ h3 {
     margin-top: 10px;
     width: 50px;
     height: 50px;
-    /* border-radius: 20px; */
 }
 
 .contact-icons:hover {
@@ -93,6 +109,37 @@ h3 {
     padding-bottom: 30px;
 }
 
+.github-label{
+    display: block;
+    margin-top: 8px;
+    margin-left: -19px;
+}
+
+.linkedin-label{
+    display: block;
+    margin-top: 8px;
+    margin-left: -24px;
+}
+
+.email-label{
+    display: block;
+    margin-top: 8px;
+    margin-left: -16px;
+}
+
+.orcid-label{
+    text-transform: uppercase;
+    display: block;
+    margin-top: 8px;
+    margin-left: -19px;
+}
+
+.vita-label{
+    display: block;
+    margin-top: 8px;
+    margin-left: -13px;
+}
+
 /* Research and Teaching Sections */
 
 .first-research-article {
@@ -113,16 +160,6 @@ h3 {
     border-top: 1px solid #bbb;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-/* Research Links */
-
-.research-link {
-    color: #25517A;
-}
-
-.research-link:hover {
-    color: #2E3639;
 }
 
 /* Dividers for research and teaching */
