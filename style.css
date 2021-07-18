@@ -30,6 +30,15 @@ label::first-letter {
     text-transform: uppercase;
 }
 
+/* Research Links */
+h3 a {
+    color: #25517A;
+}
+
+h3 a:hover {
+    color: #2E3639;
+}
+
 
 /* Navbar Color*/
 .nav-wrapper {
@@ -102,19 +111,19 @@ label::first-letter {
 .github-label{
     display: block;
     margin-top: 8px;
-    margin-left: -22px;
+    margin-left: -19px;
 }
 
 .linkedin-label{
     display: block;
     margin-top: 8px;
-    margin-left: -28px;
+    margin-left: -24px;
 }
 
 .email-label{
     display: block;
     margin-top: 8px;
-    margin-left: -19px;
+    margin-left: -16px;
 }
 
 .orcid-label{
@@ -127,7 +136,7 @@ label::first-letter {
 .vita-label{
     display: block;
     margin-top: 8px;
-    margin-left: -15px;
+    margin-left: -13px;
 }
 
 /* Research and Teaching Sections */
@@ -154,16 +163,6 @@ label::first-letter {
     border-top: 1px solid #bbb;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-/* Research Links */
-
-.research-link {
-    color: #25517A;
-}
-
-.research-link:hover {
-    color: #2E3639;
 }
 
 /* Dividers for research and teaching */
