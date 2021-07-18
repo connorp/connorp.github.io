@@ -13,7 +13,8 @@ h1 {
 }
 
 h2 {
-    font-size: 25px
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 h3 {
@@ -140,10 +141,6 @@ h3 a:hover {
 }
 
 /* Research and Teaching Sections */
-
-.section-title {
-    padding-bottom: 20px;
-}
 
 .first-research-article {
     padding-bottom: 20px;
