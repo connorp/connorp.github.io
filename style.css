@@ -125,8 +125,12 @@ p a {
 }
 
 .buttons-group {
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     white-space: nowrap;
+}
+
+ul li {
+    display:inline;
 }
 
 
