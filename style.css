@@ -21,15 +21,6 @@ h3 {
     font-size: 20px;
 }
 
-/* label automatically generated in all caps - fix */
-sub {
-    text-transform: initial;
-    color: #424242;
-    font-size: small;
-    display: block;
-    margin-top: 20px;
-}
-
 /* Research Links */
 h3 a {
     color: #25517A;
@@ -131,6 +122,14 @@ p a {
 
 ul li {
     display:inline;
+}
+
+.icon-label {
+    text-transform: initial;
+    color: #424242;
+    font-size: small;
+    display: block;
+    margin-top: 8px;
 }
 
 
