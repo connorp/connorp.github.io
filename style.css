@@ -118,10 +118,15 @@ p a {
 .buttons-group {
     padding-bottom: 40px;
     white-space: nowrap;
+    display: inline;
 }
 
 ul li {
-    display:inline;
+    display:inline-block;
+}
+
+span {
+    display: inline;
 }
 
 .icon-label {
@@ -129,29 +134,9 @@ ul li {
     color: #424242;
     font-size: small;
     display: block;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
-
-.github-label{
-    margin-left: -19px;
-}
-
-.linkedin-label{
-    margin-left: -24px;
-}
-
-.email-label{
-    margin-left: -16px;
-}
-
-.orcid-label{
-    margin-left: -19px;
-}
-
-.vita-label{
-    margin-left: -13px;
-}
 
 /* Research and Teaching Sections */
 
