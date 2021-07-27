@@ -73,37 +73,44 @@
 
             <ul class="buttons-group">
               <li>
-                <a title="GitHub" href="https://github.com/connorp" aria-label="Link to GitHub" class="hoverable btn contact-icons">
-                  <i class="fab fa-github iconImage" aria-hidden="true"></i>
-                </a>
-                <span class="icon-label">GitHub</span>
+                <a title="GitHub" href="https://github.com/connorp" aria-label="Link to GitHub">
+                  <div class="hoverable btn contact-icons">
+                    <i class="fab fa-github iconImage" aria-hidden="true"></i>
+                  </div>
+                  <span class="icon-label">GitHub</span>
+                </a>  
               </li>
               <li>
-                <a title="LinkedIn" href="https://www.linkedin.com/in/connorpj/" aria-label="Link to LinkedIn"
-                  class="hoverable btn contact-icons">
-                  <i class="fab fa-linkedin-in iconImage" aria-hidden="true"></i>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/connorpj/" aria-label="Link to LinkedIn">
+                  <div class="hoverable btn contact-icons">
+                    <i class="fab fa-linkedin-in iconImage" aria-hidden="true"></i>
+                  </div>
+                  <span class="icon-label">LinkedIn</span>
                 </a>
-                <span class="icon-label">LinkedIn</span>
               </li>
               <li>
-                <a title="Email" href="mailto:cpjackson@berkeley.edu" aria-label="Link to email cpjackson@berkeley.edu"
-                  class="hoverable btn contact-icons">
-                  <i class="fas fa-envelope iconImage" aria-hidden="true"></i>
+                <a title="Email" href="mailto:cpjackson@berkeley.edu" aria-label="Link to email cpjackson@berkeley.edu">
+                  <div class="hoverable btn contact-icons">
+                    <i class="fas fa-envelope iconImage" aria-hidden="true"></i>
+                  </div>
+                  <span class="icon-label">Email</span>
                 </a>
-                <span class="icon-label">Email</span>
               </li>
               <li>
-                <a title="ORCiD" href="https://orcid.org/0000-0002-4220-5210" aria-label="Link to ORCiD"
-                  class="hoverable btn contact-icons">
-                  <i class="fab fa-orcid iconImage" aria-hidden="true"></i>
+                <a title="ORCiD" href="https://orcid.org/0000-0002-4220-5210" aria-label="Link to ORCiD">
+                  <div class="hoverable btn contact-icons">
+                    <i class="fab fa-orcid iconImage" aria-hidden="true"></i>
+                  </div>
+                  <span class="icon-label">ORCiD</span>
                 </a>
-                <span class="icon-label">ORCiD</span>
               </li>
               <li>
-                <a title="Vita" href="./assets/CV.pdf" aria-label="CV in .pdf format" class="hoverable btn contact-icons">
-                  <span class="iconImageCV" aria-hidden="true">CV</span>
+                <a title="Vita" href="./assets/CV.pdf" aria-label="CV in .pdf format">
+                  <div class="hoverable btn contact-icons">
+                    <span class="iconImageCV" aria-hidden="true">CV</span>
+                  </div>
+                  <span class="icon-label">Vita</span>
                 </a>
-                <span class="icon-label">Vita</span>
               </li>
             </ul>
           </div>
@@ -279,6 +286,7 @@
       // select all child elements besides first two
       $("#teaching").children().slice(2).addClass("teaching-article");
     });
+    console.log('Created by Paul Vatterott\nhttps://paul-vatterott.com/')
   </script>
 </body>
 
