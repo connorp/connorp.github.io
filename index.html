@@ -29,7 +29,7 @@
 <body>
   <!-- Navbar -->
   <header>
-    <div class="navbar-fixed">
+    <div class="navbar-fixed" style="display: none;">
       <nav>
         <div class="nav-wrapper">
           <div class="container">
@@ -286,6 +286,9 @@
       // select all child elements besides first two
       $("#teaching").children().slice(2).addClass("teaching-article");
     });
+    // enables navbar when JS enabled
+    $(".navbar-fixed").show();
+    
     console.log('Created by Paul Vatterott\nhttps://paul-vatterott.com/')
   </script>
 </body>
