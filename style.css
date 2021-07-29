@@ -34,6 +34,9 @@ p a {
     color: #3344dd
 }
 
+.hidden {
+    display: none;
+}
 
 /* Navbar Color*/
 .nav-wrapper {
