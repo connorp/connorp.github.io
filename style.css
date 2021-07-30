@@ -38,12 +38,11 @@ p a {
 /* Navbar Color*/
 .nav-wrapper {
     background-color: #003262;
-    height: 64px !important;
 }
 
 /* Navbar Text Size */
 .navbarTitle {
-    font-size: x-large;
+    font-size: 14px;
 }
 
 .navbar-fixed { /* removes overlay so user can press links */
