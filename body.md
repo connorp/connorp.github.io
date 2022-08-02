@@ -1,11 +1,15 @@
 :::{#home .right-column .section}
 
-Connor is a PhD student in [Agricultural and Resource Economics at the University of California, Berkeley](https://are.berkeley.edu). As an environmental and public economist, their research explores how policies to mitigate greenhouse gas emissions from agricultural soils can accommodate emissions variation and distributional and equity concerns, and how flood insurance markets and policy design influence homeowner decisionmaking in flood zones. Connor's work spans the fields of natural resources, environmental, public, and urban economics, and combines computational tools from the natural sciences with economic models of optimal policy design.
+Connor is a PhD candidate in [Agricultural and Resource Economics at the University of California, Berkeley](https://are.berkeley.edu). As an environmental and public economist, their research explores how policies to mitigate greenhouse gas emissions from agricultural soils can accommodate emissions variation and distributional and equity concerns, and how flood insurance markets and policy design influence homeowner decisionmaking in flood zones. Connor's work spans the fields of natural resources, environmental, public, and urban economics, and combines computational tools from the natural sciences with economic models of optimal policy design.
 
 Prior to studying at Berkeley, Connor worked as a research assistant at [the RAND Corporation](https://rand.org), researching facility resilience, Army readiness, and personnel and resource employment. They have a masters degree in Agricultural and Resource Economics from UC Davis, and a bachelors degree in Physics from UC Berkeley.
 :::
 
 ## Research {#research .right-column}
+
+### _In Progress:_ Streetscape Changes and Infrastructure Equity {.article}
+
+Streetscape design is an important determinant of the spatial equilibrium in urban areas. Projects that reallocate street space between users create winners and losers, and understanding the impacts of these projects, who bears the costs and benefits, and how they lead to spatial resorting is an important policy question as cities pursue these projects. I use a discontinuity in funding awards from the California Active Transportation Program to provide quasi-random variation in the implementation of changes to local street infrastructure, and apply a Regression Discontinuity design to uncover effects on traffic, business visitation, safety, and land values. 
 
 ### _In Progress:_ Flood Insurance and Home Sales {.article}
 
@@ -20,7 +24,8 @@ _With Jim Sallee:_ Nitrous oxide is a potent greenhouse gas, produced primarily 
 ### _Teaching Assistant:_ Environmental Economics (UC Berkeley) {.article}
 
 {.course-info}
-Spring Semester 2021. Instructor: Jim Sallee. Overall student evaluation rating: 6.1/7
+Spring Semester 2021. Instructor: Jim Sallee. Overall student evaluation rating: 6.1/7  
+Spring Semester 2022. Instructor: Jim Sallee.
 
 Economic welfare, externalities, public goods, common goods, policy approaches for dealing with externalities (Pigou, Cap and Trade, Diamond, Weitzman, Buchanan), equity and distributional impacts, and valuation of environmental goods and services (revealed preference, stated preference, hedonic valuation, value of a statistical life).
 
